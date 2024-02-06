@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <form>
+          <div class="display">
+            <input class="displayInput" type="text" name="display" readonly />
+          </div>
+          <div class="r1">
+            <input class="AC" type="button" value="AC" />
+            <input class="DE" type="button" value="DE" />
+            <input class="signButton" type="button" value="." />
+            <input class="signButton" type="button" value="/" />
+          </div>
+          <div class="r2">
+            <input class="numberButton" type="button" value="7" />
+            <input class="numberButton" type="button" value="8" />
+            <input class="numberButton" type="button" value="9" />
+            <input class="signButton" type="button" value="*" />
+          </div>
+          <div class="r3">
+            <input class="numberButton" type="button" value="4" />
+            <input class="numberButton" type="button" value="5" />
+            <input class="numberButton" type="button" value="6" />
+            <input class="signButton" type="button" value="-" />
+          </div>
+          <div class="r4">
+            <input class="numberButton" type="button" value="1" />
+            <input class="numberButton" type="button" value="2" />
+            <input class="numberButton" type="button" value="3" />
+            <input class="signButton" type="button" value="+" />
+          </div>
+          <div class="r5">
+            <input class="numberButton" type="button" value="00" />
+            <input class="numberButton" type="button" value="0" />
+            <input class="equalButton" type="button" value="=" />
+          </div>
+        </form>
+      </div>
+    </div>
+		<script src="app.js"></script>
+  </body>
 </html>
